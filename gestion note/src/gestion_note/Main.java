@@ -15,6 +15,14 @@ public class Main {
 		System.out.println(ayoub.compareTo(ayoub));
 		System.out.println(hamid.compareTo(simo));
 		System.out.println(simo.compareTo(hamid));
+		ListEtudiant liste =new ListEtudiant();
+		liste.add(ayoub);
+		liste.add(simo);
+		liste.add(hamid);
+		liste.add(ayoub);
+
+		
+
 
 	}
 
